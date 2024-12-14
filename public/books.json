@@ -1,0 +1,184 @@
+[
+    {
+      "id": "1",
+      "img": "img/ascendant.png",
+      "title": "Ascendant - Michael Kane",
+      "price": "25.00",
+      "category": "Lifestyle"
+    },
+    {
+      "id": "2",
+      "img": "img/broken-wings.png",
+      "title": "Broken Wings - Lily Monroe",
+      "price": "22.00",
+      "category": "Lifestyle"
+    },
+    {
+      "id": "3",
+      "img": "img/deadly-secrets.png",
+      "title": "Deadly Secrets - Chloe Woods",
+      "price": "22.00",
+      "category": "Featured Author"
+    },
+    {
+      "id": "4",
+      "img": "img/digital-ghosts.png",
+      "title": "Digital Ghosts - Jasper Lane",
+      "price": "26.45",
+      "category": "Non-Fiction"
+    },
+    {
+      "id": "5",
+      "img": "img/fallen-stars.png",
+      "title": "Fallen Stars - Lily Monroe",
+      "price": "16.50",
+      "category": "Lifestyle"
+    },
+    {
+      "id": "6",
+      "img": "img/fatal-promise.png",
+      "title": "Fatal Promise - Chloe Woods",
+      "price": "21.00",
+      "category": "Featured Author"
+    },
+    {
+      "id": "7",
+      "img": "img/hidden-truth.png",
+      "title": "Hidden Truth - Chloe Woods",
+      "price": "23.00",
+      "category": "Featured Author"
+    },
+    {
+      "id": "8",
+      "img": "img/hollow-veil.png",
+      "title": "Hollow Veil - Jasper Lane",
+      "price": "32.50",
+      "category": "Non-Fiction"
+    },
+    {
+      "id": "9",
+      "img": "img/melody.png",
+      "title": "Melody - Iris West",
+      "price": "35.10",
+      "category": "Fiction"
+    },
+    {
+      "id": "10",
+      "img": "img/midnight-shadows.png",
+      "title": "Midnight Shadows - Lily Monroe",
+      "price": "20.90",
+      "category": "Fiction"
+    },
+    {
+      "id": "11",
+      "img": "img/mirage.png",
+      "title": "Mirage - Nathan Cole",
+      "price": "21.00",
+      "category": "Lifestyle"
+    },
+    {
+      "id": "12",
+      "img": "img/phantom.png",
+      "title": "Phantom - Liam Hayes",
+      "price": "22.45",
+      "category": "Lifestyle"
+    },
+    {
+      "id": "13",
+      "img": "img/rebirth.png",
+      "title": "Rebirth - Damon Cross",
+      "price": "23.50",
+      "category": "Non-Fiction"
+    },
+    {
+      "id": "14",
+      "img": "img/resonance.png",
+      "title": "Resonance - Emilia Fox",
+      "price": "19.50",
+      "category": "Lifestyle"
+    },
+    {
+      "id": "15",
+      "img": "img/shadow-queen.png",
+      "title": "Shadow Queen - Oliver Reid",
+      "price": "21.99",
+      "category": "Non-Fiction"
+    },
+    {
+      "id": "16",
+      "img": "img/silent-waves.png",
+      "title": "Silent Waves - Noah Black",
+      "price": "23.55",
+      "category": "Lifestyle"
+    },
+    {
+      "id": "17",
+      "img": "img/specter.png",
+      "title": "Specter - Naomi Woods",
+      "price": "29.00",
+      "category": "Lifestyle"
+    },
+    {
+      "id": "18",
+      "img": "img/starlight.png",
+      "title": "Starlight - Sophie Lark",
+      "price": "32.55",
+      "category": "Lifestyle"
+    },
+    {
+      "id": "19",
+      "img": "img/fading-stars-of-andromeda.png",
+      "title": "Stars of Andromeda - Lara Miles",
+      "price": "29.99",
+      "category": "Non-Fiction"
+    },
+    {
+      "id": "20",
+      "img": "img/stallen-heart.png",
+      "title": "Stolen Hearts - Chloe Woods",
+      "price": "21.00",
+      "category": "Featured Author"
+    },
+    {
+      "id": "21",
+      "img": "img/the-quantum-prison.png",
+      "title": "The Quantum Prison - Alex Draven",
+      "price": "17.00",
+      "category": "Non-Fiction"
+    },
+    {
+      "id": "22",
+      "img": "img/the-thief-of-time.png",
+      "title": "The Thief of Time - Amelia Pierce",
+      "price": "18.00",
+      "category": "Lifestyle"
+    },
+    {
+      "id": "23",
+      "img": "img/thorn-of-the-frost-king.png",
+      "title": "Thorn of The Frost King - Edgar Hale",
+      "price": "29.45",
+      "category": "Fiction"
+    },
+    {
+      "id": "24",
+      "img": "img/unseen-eyes.png",
+      "title": "Unseen Eyes - Rebecca Cole",
+      "price": "27.00",
+      "category": "Non-Fiction"
+    },
+    {
+      "id": "25",
+      "img": "img/whispered-secrets.png",
+      "title": "Whispered Secrets - Lily Monroe",
+      "price": "25.50",
+      "category": "Fiction"
+    },
+    {
+      "id": "26",
+      "img": "img/shattered-dreams.png",
+      "title": "Shattered Dreams - Lily Monroe",
+      "price": "19.99",
+      "category": "Lifestyle"
+    }
+  ]

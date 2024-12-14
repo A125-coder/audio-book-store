@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookstore</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="hero container">
+        <img src="./img/shattered-dreams-preview.webp" alt="Shattered Dreams" class="hero-image" />
+        <div class="hero-content">
+          <h1>Shattered Dreams</h1>
+          <h2>Lily Monroe</h2>
+          <p>
+            Don’t miss out on *Shattered Dreams* by Lily Monroe, coming soon to
+            our digital shelves. Pre-order this book today and have it instantly
+            delivered to your devices upon release.
+          </p>
+          <div class="countdown">
+            <span>12 Days</span>
+            <span>5 Hours</span>
+            <span>11 Minutes</span>
+            <span>42 Seconds</span>
+          </div>
+          <a href="#" class="preorder-button">Pre-order Now</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="books container">
+        <h2>All Books</h2>
+        <div class="filters">
+          <h3>Filters</h3>
+          <ul class="filter-list">
+            <li>All</li>
+            <li>Featured Author</li>
+            <li>Fiction</li>
+            <li>Non-Fiction</li>
+            <li>Lifestyle</li>
+          </ul>
+          <label class="price-range">
+            Price:
+            <input type="range" min="10" max="25" />
+          </label>
+        </div>
+        <div class="book-grid">
+          
+        </div>
+        <button onclick="loadData()" class="load-more">Load More</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
