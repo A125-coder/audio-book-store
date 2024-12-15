@@ -16,6 +16,86 @@ body {
   text-align: center;
 }
 
+.header__help-text a,
+.header__discount-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.header__help-text a:hover,
+.header__discount-link:hover {
+  text-decoration: underline;
+}
+
+.header__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+
+.header__brand{
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.header__nav .header__menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__menu-item {
+  margin-right: 20px;
+}
+
+.header__menu-link:hover {
+  color: #007bff;
+}
+
+.header__socials {
+  display: flex;
+  gap: 10px;
+}
+
+.header__social-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 24px;
+}
+
+.header__social-link:hover {
+  color: #007bff;
+}
+
+.header__menu-link {
+  position: relative; /* Обов'язково для псевдоелементів */
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.header__menu-link::after {
+  content: ''; /* Псевдоелемент, який буде лінією */
+  position: absolute;
+  bottom: -2px; /* Відступ від тексту */
+  left: 0;
+  width: 0; /* Початково лінія невидима */
+  height: 2px;
+  background-color: #007bff;
+  transition: width 0.3s ease; /* Анімація ширини */
+}
+
+.header__menu-link:hover::after {
+  width: 100%; /* На ховер лінія заповнює весь текст */
+}
+
+
 .hero {
   display: flex;
   justify-content: center;
@@ -74,9 +154,10 @@ body {
 
 .filters ul li {
   margin: 5px 0;
+  cursor: pointer;
 }
 
-.book-grid > div {
+.book-grid{
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
@@ -89,8 +170,16 @@ body {
   border-radius: 10px;
   padding: 10px;
   text-align: center;
-  width: 150px;
+  width: 240px;
   display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+  box-shadow: 10px 5px 5px #a1a1a1;
+}
+
+.book:hover{
+  transform: scale(1.1);
+  transition: transform ease-in-out 0.5s;
 }
 
 .book img {
@@ -113,6 +202,6 @@ body {
   display: flex;
   justify-content: space-evenly;
 }
-/* .book-grid .book:nth-child(n+4){
-    display: none;
-} */
+.price-range input{
+  cursor: pointer;
+}

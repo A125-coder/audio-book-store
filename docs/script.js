@@ -8,59 +8,54 @@ let initialyShowedItems = 3;
 let loadedItems = 3;
 let booksListHtml = document.querySelector(".book-grid");
 let loadMoreBtn = document.querySelector(".load-more");
+const filterList = document.querySelector(".filter-list");
+let currentCategory = "All";
 
 function loadInitialItems() {
   let books = JSON.parse(localStorage.getItem("books"));
-  let booksList = "";
-  let counter = 0;
-  for (const book of books) {
-    if (counter < initialyShowedItems) {
-      booksList += `
-        <div class="book">
-            <img src="${book.img}" alt="${book.title}" />
-            <h4>${book.title}</h4>
-            <p>$${book.price}USD</p>
-        </div>
-    `;
-    }
-    counter++;
-  }
-  let div = document.createElement("div");
-  booksListHtml.appendChild(div);
-  div.innerHTML = booksList;
+  displayBooks(books.slice(0, initialyShowedItems));
 }
-loadInitialItems();
 
 function loadData() {
   let currentDisplayedItems = document.querySelectorAll(".book").length;
   let books = JSON.parse(localStorage.getItem("books"));
-  let booksList = "";
-  let counter = 0;
-  for (const book of books) {
-    if (
-      counter >= currentDisplayedItems &&
-      counter < loadedItems + currentDisplayedItems
-    ) {
-      booksList += `
-        <div class="book">
-            <img src="${book.img}" alt="${book.title}" />
-            <h4>${book.title}</h4>
-            <p>$${book.price}USD</p>
-        </div>
-    `;
-    }
-    counter++;
-  }
-  let div = document.createElement("div");
-  booksListHtml.appendChild(div);
-  div.innerHTML = booksList;
-  div.style.opacity = 0;
 
-  if (document.querySelectorAll(".book").length === books.length) {
+  let filteredBooks = filterBooksByCategory(books, currentCategory);
+  let booksToLoad = filteredBooks.slice(
+    currentDisplayedItems,
+    currentDisplayedItems + loadedItems
+  );
+
+  displayBooks(booksToLoad);
+
+  if (document.querySelectorAll(".book").length === filteredBooks.length) {
     loadMoreBtn.style.display = "none";
   }
+}
 
-  fadeIn(div);
+function filterBooksByCategory(books, category) {
+  if (category === "All") {
+    return books; 
+  } else {
+    return books.filter((book) => book.category === category);
+  }
+}
+
+function displayBooks(booksToDisplay) {
+  booksToDisplay.forEach((book) => {
+    let bookHtml = `
+      <div class="book">
+        <a href="book.html?id=${book.id}"><img src="${book.img}" alt="${book.title}" /></a>
+        <h4>${book.title}</h4>
+        <p>$${book.price} USD</p>
+      </div>
+    `;
+    let div = document.createElement("div");
+    booksListHtml.appendChild(div);
+    div.innerHTML = bookHtml;
+    div.style.opacity = 0;
+    fadeIn(div);
+  });
 }
 
 function fadeIn(div) {
@@ -74,3 +69,17 @@ function fadeIn(div) {
     }
   }, 30);
 }
+
+filterList.addEventListener("click", (event) => {
+  if (event.target.tagName === "LI") {
+    currentCategory = event.target.innerText;
+    booksListHtml.innerHTML = ""; 
+    loadMoreBtn.style.display = "block"; 
+
+    let books = JSON.parse(localStorage.getItem("books"));
+    let filteredBooks = filterBooksByCategory(books, currentCategory);
+    displayBooks(filteredBooks.slice(0, initialyShowedItems));
+  }
+});
+
+loadInitialItems();

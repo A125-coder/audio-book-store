@@ -4,181 +4,233 @@
       "img": "img/ascendant.png",
       "title": "Ascendant - Michael Kane",
       "price": "25.00",
-      "category": "Lifestyle"
+      "category": "Lifestyle",
+      "stock": "In Stock",
+      "description": "Ascendant by Michael Kane is a gripping detective novel that follows veteran investigator Jack Donovan as he relentlessly hunts down a cold-blooded serial killer. With each new murder, the killer grows more brazen, and the clues become increasingly obscure. As the body count rises, Donovan’s pursuit becomes a personal battle, testing his limits both mentally and emotionally."
     },
     {
       "id": "2",
       "img": "img/broken-wings.png",
       "title": "Broken Wings - Lily Monroe",
       "price": "22.00",
-      "category": "Lifestyle"
+      "category": "Lifestyle",
+      "stock": "In Stock",
+      "description": "This is the second book in the Shattered World trilogy by Lily Monroe. Elara is caught between love and betrayal as the lines between friend and foe blur. With war looming, she uncovers dark truths about her past and the source of her powers. Torn between duty and desire, Elara must make impossible choices to protect those she cares for."
     },
     {
       "id": "3",
       "img": "img/deadly-secrets.png",
       "title": "Deadly Secrets - Chloe Woods",
       "price": "22.00",
-      "category": "Featured Author"
+      "category": "Featured Author",
+      "stock": "In Stock",
+      "description": "Deadly Secrets, the thrilling final chapter of the Fatal Promise series, Emory faces a heart-stopping choice. When Paul’s dark past resurfaces, threatening their lives and love, Emory uncovers a betrayal that shakes her to the core. As the truth behind Paul’s involvement in a dangerous criminal world unfolds, they are forced into a desperate fight for survival. With enemies closing in and loyalties tested, Emory must confront her deepest fears — can love survive in a world of deadly secrets, or will it tear them apart forever?"
     },
     {
       "id": "4",
       "img": "img/digital-ghosts.png",
       "title": "Digital Ghosts - Jasper Lane",
       "price": "26.45",
-      "category": "Non-Fiction"
+      "category": "Non-Fiction",
+      "stock": "In Stock",
+      "description": "Detective Sam Lau is drawn into a labyrinthine case when a series of cybercrimes leads to a mysterious death. As whispers of “digital ghosts” spread, Sam uncovers a dark underworld where secrets are traded, and nothing is what it seems. With every clue, he ventures deeper into danger, unraveling a conspiracy that blurs the lines."
     },
     {
       "id": "5",
       "img": "img/fallen-stars.png",
       "title": "Fallen Stars - Lily Monroe",
       "price": "16.50",
-      "category": "Lifestyle"
+      "category": "Lifestyle",
+      "stock": "In Stock",
+      "description": "The gripping conclusion to the Shattered World trilogy sees Elara racing against time to prevent an all-out catastrophe. With her powers at their peak but her allies dwindling, she faces a final confrontation with the ancient force she awakened. As the stars align for a reckoning, Elara must decide whether to sacrifice everything for the greater good — or risk it all for love."
     },
     {
       "id": "6",
       "img": "img/fatal-promise.png",
       "title": "Fatal Promise - Chloe Woods",
       "price": "21.00",
-      "category": "Featured Author"
+      "category": "Featured Author",
+      "stock": "In Stock",
+      "description": "Emory is forced into a life-altering decision when a mysterious and dangerous promise ties her fate to a captivating stranger. As sparks fly between them, she must navigate a world of dark secrets, intense attraction, and a future she never chose. Torn between love and fear, Emory begins to realize that some promises are deadly, and breaking them may be the only way to survive."
     },
     {
       "id": "7",
       "img": "img/hidden-truth.png",
       "title": "Hidden Truth - Chloe Woods",
       "price": "23.00",
-      "category": "Featured Author"
+      "category": "Featured Author",
+      "stock": "In Stock",
+      "description": "In Hidden Truth, the gripping sequel to Fatal Promise by Chloe Woods, Emory’s journey intensifies as she begins to uncover the dangerous truths surrounding the mysterious stranger she’s become entangled with. As she delves deeper into his secrets, she must navigate a labyrinth of lies and hidden motives, all while her feelings for him grow more complicated. The stakes are higher, and the choices she makes will determine not only her future but the fate of those she loves."
     },
     {
       "id": "8",
       "img": "img/hollow-veil.png",
       "title": "Hollow Veil - Jasper Lane",
       "price": "32.50",
-      "category": "Non-Fiction"
+      "category": "Non-Fiction",
+      "stock": "In Stock",
+      "description": "Hollow Veil by Jasper Lane is a pulse-pounding suspense thriller set against the vast and lonely highways of 1980s America. When a young couple embarks on a cross-country road trip, their journey takes a sinister turn after a wrong turn leads them to a fog-shrouded prairie. As the events unfold, Amanda and Joseph are forced to confront their own secrets and the unseen force stalking them in the shadows."
     },
     {
       "id": "9",
       "img": "img/melody.png",
       "title": "Melody - Iris West",
       "price": "35.10",
-      "category": "Fiction"
+      "category": "Fiction",
+      "stock": "In Stock",
+      "description": "This spellbinding detective novel that follows the sharp-witted investigator, Melody Harper, as she delves into a web of lies and murder in a quiet coastal town. Tasked with solving the brutal killing of a circus artist, Melody uncovers buried secrets that link the victim to powerful figures and a scandal long thought forgotten. As the case becomes more complex, Melody must confront her own past to uncover the truth."
     },
     {
       "id": "10",
       "img": "img/midnight-shadows.png",
       "title": "Midnight Shadows - Lily Monroe",
       "price": "20.90",
-      "category": "Fiction"
+      "category": "Fiction",
+      "stock": "In Stock",
+      "description": "A seductive blend of mystery and magic, Midnight Shadows follows Cassian, a detective with an otherworldly ability to see beyond the veil of reality. When a string of supernatural murders terrorizes the city, Cassian teams up with a daring enchantress to solve the case."
     },
     {
       "id": "11",
       "img": "img/mirage.png",
       "title": "Mirage - Nathan Cole",
       "price": "21.00",
-      "category": "Lifestyle"
+      "category": "Lifestyle",
+      "stock": "In Stock",
+      "description": "Mirage by Nathan Cole is a tense crime novel set against the vibrant backdrop of a Miami street festival, where the celebration turns to chaos after a high-profile murder. Detective Leo Ramirez is called to investigate, but as he dives deeper into the case, nothing adds up. Every lead feels like a mirage, slipping further away as the case unfolds."
     },
     {
       "id": "12",
       "img": "img/phantom.png",
       "title": "Phantom - Liam Hayes",
       "price": "22.45",
-      "category": "Lifestyle"
+      "category": "Lifestyle",
+      "stock": "In Stock",
+      "description": "Detective Sam Carter is called to investigate a chilling murder, but the case defies all logic. There are no witnesses, no fingerprints, and no motive — only a sense of eerie silence surrounding the crime. As Carter delves deeper into the mystery, he begins to uncover a web of secrets, leading him to question everything he thought he knew about the case — and even his own city."
     },
     {
       "id": "13",
       "img": "img/rebirth.png",
       "title": "Rebirth - Damon Cross",
       "price": "23.50",
-      "category": "Non-Fiction"
+      "category": "Non-Fiction",
+      "stock": "In Stock",
+      "description": "After a long hiatus from the spotlight, renowned violinist Adrian Voss faces his greatest challenge yet — returning to the stage that once defined his life. Haunted by past failures and doubts, Adrian embarks on a journey of self-discovery, confronting his fears and rediscovering the music that shaped his soul. This is a story about second chances and the courage to reignite dreams."
     },
     {
       "id": "14",
       "img": "img/resonance.png",
       "title": "Resonance - Emilia Fox",
       "price": "19.50",
-      "category": "Lifestyle"
+      "category": "Lifestyle",
+      "stock": "In Stock",
+      "description": "Resonance by Emilia Fox is a gripping psychological thriller about Claire, a woman who wakes up after a near-fatal accident with no memory of her past. As she rebuilds her life, she begins to uncover unsettling truths about who she was — and the dangerous forces that seem to be watching her every move."
     },
     {
       "id": "15",
       "img": "img/shadow-queen.png",
       "title": "Shadow Queen - Oliver Reid",
       "price": "21.99",
-      "category": "Non-Fiction"
+      "category": "Non-Fiction",
+      "stock": "In Stock",
+      "description": "Shadow Queen by Oliver Reid is a fantasy tale that follows the journey of Alma, a red-haired young woman destined to confront a legacy of darkness. As the Shadow Queen, she wields a forbidden power tied to a kingdom on the brink of collapse. Amid court intrigue, ancient prophecies, and hidden loyalties, she must embrace her role as both savior and potential destroyer."
     },
     {
       "id": "16",
       "img": "img/silent-waves.png",
       "title": "Silent Waves - Noah Black",
       "price": "23.55",
-      "category": "Lifestyle"
+      "category": "Lifestyle",
+      "stock": "In Stock",
+      "description": "When a group of friends retreats to a luxurious beachfront villa, their tranquil paradise is shattered by the sudden disappearance of one of their own. As secrets unravel under the dreamy pink skies and swaying palms, tensions rise, and the line between friend and foe blurs. With each passing wave, the mystery deepens, leading to a shocking revelation that no one saw coming."
     },
     {
       "id": "17",
       "img": "img/specter.png",
       "title": "Specter - Naomi Woods",
       "price": "29.00",
-      "category": "Lifestyle"
+      "category": "Lifestyle",
+      "stock": "In Stock",
+      "description": "Specter by Naomi Woods is a fast-paced spy thriller packed with espionage, danger, and high-stakes action. When elite spy Kiera Holt is assigned to investigate a series of covert operations gone awry, she uncovers a shadowy conspiracy that threatens global security."
     },
     {
       "id": "18",
       "img": "img/starlight.png",
       "title": "Starlight - Sophie Lark",
       "price": "32.55",
-      "category": "Lifestyle"
+      "category": "Lifestyle",
+      "stock": "In Stock",
+      "description": "Starlight by Sophie Lark is a charming, light-hearted novel about Diana and John navigating the journey of love and self-discovery. As they face the challenges of friendship, family, and their own insecurities, they find solace and support in each other. Through sweet moments, heartfelt conversations, and personal growth, their relationship deepens, reminding readers of the beauty in embracing who you are and finding connection in unexpected places."
     },
     {
       "id": "19",
       "img": "img/fading-stars-of-andromeda.png",
       "title": "Stars of Andromeda - Lara Miles",
       "price": "29.99",
-      "category": "Non-Fiction"
+      "category": "Non-Fiction",
+      "stock": "In Stock",
+      "description": "In a distant galaxy, the once-glorious Andromeda Empire is on the brink of collapse, and its stars — mysterious beings with unimaginable power — are falling one by one. Amidst political intrigue and dark magic, the emperor's daughter, Eleonora, must confront her destiny, torn between loyalty to a broken empire and the love of an enigmatic stranger who holds the key to the galaxy’s future."
     },
     {
       "id": "20",
       "img": "img/stallen-heart.png",
       "title": "Stolen Hearts - Chloe Woods",
       "price": "21.00",
-      "category": "Featured Author"
+      "category": "Featured Author",
+      "stock": "In Stock",
+      "description": "Stolen Hearts, the third book in the Fatal Promise series, continues Emory's emotional rollercoaster as she finds herself torn between love and a past that threatens to tear everything apart. As she encounters the dark side of Paul, she must decide whether to trust her heart or protect herself from the dangerous world she’s now a part of."
     },
     {
       "id": "21",
       "img": "img/the-quantum-prison.png",
       "title": "The Quantum Prison - Alex Draven",
       "price": "17.00",
-      "category": "Non-Fiction"
+      "category": "Non-Fiction",
+      "stock": "In Stock",
+      "description": "The Quantum Prison by Alex Draven is a mind-bending blend of science fiction and detective noir. When a brilliant scientist is found dead inside a quantum simulation — a revolutionary system used to confine the world's most dangerous criminals — Detective Kade Monroe is called to investigate. Navigating a maze of fractured realities and shadowy motives, Kade uncovers secrets that challenge the boundaries of existence itself."
     },
     {
       "id": "22",
       "img": "img/the-thief-of-time.png",
       "title": "The Thief of Time - Amelia Pierce",
       "price": "18.00",
-      "category": "Lifestyle"
+      "category": "Lifestyle",
+      "stock": "In Stock",
+      "description": "The Thief of Time by Amelia Pierce is a thrilling sci-fi adventure that follows Ethan Drake, a rogue time traveler with a dangerous secret. As he journeys through the ages, altering pivotal moments in history, Ethan must outwit time itself to escape the forces hunting him."
     },
     {
       "id": "23",
       "img": "img/thorn-of-the-frost-king.png",
       "title": "Thorn of The Frost King - Edgar Hale",
       "price": "29.45",
-      "category": "Fiction"
+      "category": "Fiction",
+      "stock": "In Stock",
+      "description": "When a young warrior, haunted by a cursed past, is drawn into a deadly conflict with the Frost King — an immortal ruler with a thirst for destruction — she must confront both the shadows of her own soul and the deadly forces threatening her world. With betrayal, dark magic, and bloody battles, this story of survival and vengeance is one of icy beauty and brutal choices."
     },
     {
       "id": "24",
       "img": "img/unseen-eyes.png",
       "title": "Unseen Eyes - Rebecca Cole",
       "price": "27.00",
-      "category": "Non-Fiction"
+      "category": "Non-Fiction",
+      "stock": "In Stock",
+      "description": "This chilling thriller follows Janett, whose ordinary life takes a dark turn after witnessing something she was never meant to see. Hunted by unseen forces determined to silence her, she must unravel the sinister truth behind what she saw before it's too late. As she pieces together the horrifying puzzle, Janett realizes that no one can be trusted—not even herself."
     },
     {
       "id": "25",
       "img": "img/whispered-secrets.png",
       "title": "Whispered Secrets - Lily Monroe",
       "price": "25.50",
-      "category": "Fiction"
+      "category": "Fiction",
+      "stock": "In Stock",
+      "description": "In this standalone novel, Lily Monroe spins a tale of forbidden love and hidden truths. Set in a remote mountain village shrouded in superstition, Whispered Secrets follows Alina, a young healer with a gift for hearing the voices of the past. When she falls for a mysterious stranger with a dark history, the two must unravel a series of unsolved murders and face the buried secrets."
     },
     {
       "id": "26",
       "img": "img/shattered-dreams.png",
       "title": "Shattered Dreams - Lily Monroe",
       "price": "19.99",
-      "category": "Lifestyle"
+      "category": "Lifestyle",
+      "stock": "Pre Order",
+      "description": "With her debut book in the Shattered Worlds trilogy, Lily Monroe introduces a world where dreams hold immense power. When Elara, a young dreamweaver, discovers a hidden threat within her nightmares, she is thrust into a dangerous quest to stop an ancient force from breaking free."
     }
   ]
