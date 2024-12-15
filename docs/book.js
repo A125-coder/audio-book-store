@@ -5,6 +5,7 @@ fetch("./books.json")
   });
 
 let bookInfo = document.getElementById("book-details");
+
 function getBookIdFromURL() {
   const params = new URLSearchParams(window.location.search);
   return params.get("id");
@@ -12,11 +13,6 @@ function getBookIdFromURL() {
 
 function displayBookDetails() {
   const bookId = getBookIdFromURL();
-  if (!bookId) {
-    bookInfo.innerHTML = "<p>Book not found!</p>";
-    return;
-  }
-
   const books = JSON.parse(localStorage.getItem("books"));
   const book = books.find((b) => b.id === bookId);
 
