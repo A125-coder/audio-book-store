@@ -1,0 +1,147 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+/* Header Styling */
+.wishlist-header {
+  background-color: #eef3fd;
+  padding: 20px 0;
+}
+
+.wishlist-header__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wishlist-header__brand {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.wishlist-header__menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.wishlist-header__menu-item {
+  margin-left: 20px;
+}
+
+.wishlist-header__menu-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.wishlist-header__menu-link.active {
+  color: #007bff;
+}
+
+/* Hero Section */
+.wishlist-hero {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.wishlist-hero__title {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.wishlist-hero__subtitle {
+  color: #555;
+  margin: 10px 0;
+}
+
+/* Wishlist Books Section */
+.wishlist-books {
+  margin-top: 40px;
+}
+
+.wishlist-books__heading {
+  text-align: center;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.wishlist-books__grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.wishlist-book {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.wishlist-book__image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.wishlist-book__title {
+  font-size: 1.2em;
+  margin: 10px 0 5px;
+}
+
+.wishlist-book__author {
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.wishlist-book {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.wishlist-book:hover {
+  transform: scale(1.1);
+  transition: transform ease-in-out 0.5s;
+}
+
+.wishlist-book img {
+  width: 80px;
+  height: auto;
+}
+
+.wishlist-book h4 {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.remove-btn {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
