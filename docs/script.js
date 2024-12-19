@@ -141,3 +141,60 @@ function addBookToWishlist(bookID) {
     alert(`${bookToAdd.title} book is already in your wishlist!`);
   }
 }
+
+// Modal
+
+function openModal(modalId) {
+  document.getElementById(modalId).style.display = "flex";
+}
+
+function closeModal(modalId) {
+  document.getElementById(modalId).style.display = "none";
+}
+
+document.getElementById("signup-form").addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  const username = document.getElementById("signup-username").value;
+  const email = document.getElementById("signup-email").value;
+  const name = document.getElementById("signup-name").value;
+  const password = document.getElementById("signup-password").value;
+
+  const users = JSON.parse(localStorage.getItem("users")) || [];
+
+  if (users.find((user) => user.username === username)) {
+    alert(`Username is already taken!`);
+  }
+  if (users.find((u) => u.email === email)) {
+    alert("Email is already registered.");
+    return;
+  }
+
+  users.push({ username, email, name, password });
+  localStorage.setItem("users", JSON.stringify(users));
+
+  alert("Sign Up successful! Please log in.");
+  closeModal("signup-modal");
+});
+
+document.getElementById("signin-form").addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  const identifier = document.getElementById("signin-identifier").value;
+  const password = document.getElementById("signin-password").value;
+
+  const users = JSON.parse(localStorage.getItem("users")) || [];
+
+  const user = users.find(
+    (u) =>
+      (u.username === identifier || u.email === identifier) &&
+      u.password === password
+  );
+
+  if (user) {
+    alert(`Welcome back, ${user.name}!`);
+    closeModal("signin-modal");
+  } else {
+    alert("Invalid username/email or password.");
+  }
+});

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Book.Land</title>
     <link rel="stylesheet" href="./style.css" />
-    <link rel="shortcut icon" href="./img/title-logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/title-logo.png" type="image/x-icon" />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
       rel="stylesheet"
@@ -40,7 +40,20 @@
               >
             </li>
             <li class="header__menu-item">
-              <a href="#login" class="header__menu-link login">Log In</a>
+              <a
+                href="javascript:void(0)"
+                onclick="openModal('signin-modal')"
+                class="header__menu-link login"
+                >Sign In</a
+              >
+            </li>
+            <li class="header__menu-item">
+              <a
+                href="javascript:void(0)"
+                onclick="openModal('signup-modal')"
+                class="header__menu-link signup"
+                >Sign Up</a
+              >
             </li>
           </ul>
         </nav>
@@ -73,9 +86,7 @@
             our digital shelves. Pre-order this book today and have it instantly
             delivered to your devices upon release.
           </p>
-          <div class="countdown">
-            
-          </div>
+          <div class="countdown"></div>
           <a href="#" class="preorder-button">Pre-order Now</a>
         </div>
       </div>
@@ -98,6 +109,80 @@
         <button onclick="loadData()" class="load-more">Load More</button>
       </section>
     </main>
+
+    <!-- Sign In Modal -->
+    <div id="signin-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('signin-modal')"
+          >&times;</span
+        >
+        <h2>Sign In</h2>
+        <form id="signin-form">
+          <label for="signin-identifier">Username or Email:</label>
+          <input
+            type="text"
+            id="signin-identifier"
+            name="identifier"
+            placeholder="Enter your username or email"
+            required
+          />
+          <label for="signin-password">Password:</label>
+          <input
+            type="password"
+            id="signin-password"
+            name="password"
+            placeholder="Enter your password"
+            required
+          />
+          <button type="submit">Sign In</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Sign Up Modal -->
+    <div id="signup-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" onclick="closeModal('signup-modal')"
+          >&times;</span
+        >
+        <h2>Sign Up</h2>
+        <form id="signup-form">
+          <label for="signup-username">Username:</label>
+          <input
+            type="text"
+            id="signup-username"
+            name="username"
+            placeholder="Create a username"
+            required
+          />
+          <label for="signup-email">Email:</label>
+          <input
+            type="email"
+            id="signup-email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+          <label for="signup-name">Name:</label>
+          <input
+            type="text"
+            id="signup-name"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+          <label for="signup-password">Password:</label>
+          <input
+            type="password"
+            id="signup-password"
+            name="password"
+            placeholder="Create a password"
+            required
+          />
+          <button type="submit">Sign Up</button>
+        </form>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
